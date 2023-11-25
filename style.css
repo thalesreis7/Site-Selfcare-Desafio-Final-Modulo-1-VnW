@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+   /* HEADER */
+
+.home{
+    height: 10vh;
+    display: flex;
+    
+
+}
+
+.home div {
+    height: 10vh;
+    width: 200vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.home figure {
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+}
+
+.home img {
+   width: 9vw;
+}
+
+  /* MAIN */
+
+.banner img {
+    width: 201vh;
+}
+
+
+
+
+
+
+
+
+
