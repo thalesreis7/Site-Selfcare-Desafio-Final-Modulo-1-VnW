@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Lato:wght@700&display=swap');
 
 *{
     margin: 0;
@@ -35,13 +35,53 @@
 }
 
   /* MAIN */
-
-.banner img {
-    width: 201vh;
+.banner figure {
+    width: 100vw;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center
 }
 
+.banner img {
+    width: 100vw;
+}
 
+.offers {
+    height: 10vh;
+    /* border: solid 1px green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.offers h2 {
+    /* border: solid 1px; */
+    width: 19vw;
+    display: flex;
+    justify-content: center;
+    font-family: 'Lato';
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #161616;
+}
+
+.offers p {
+    /* border: solid 1px; */
+    width: 18vw;
+    display: flex;
+    justify-content: center;
+    font-family: 'Lato';
+    font-size: 1.120rem;
+    font-weight: 400;
+    word-spacing: 0.2rem;
+    color: #161616;
+}
+
+.line {
+    /* width: 100%; */
+    border-bottom: 1px solid #A5A1A1;
+}
 
 
 
