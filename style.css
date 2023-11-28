@@ -1,10 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Lato:wght@700&display=swap');
+
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    @import url: ('https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Lato:wght@700&display=swap');
 }
+
 
    /* HEADER */
 
@@ -34,13 +36,16 @@
    width: 9vw;
 }
 
-  /* MAIN */
+     /* MAIN */
+
+
 .banner figure {
     width: 100vw;
     /* border: 1px solid red; */
     display: flex;
     justify-content: center
 }
+
 
 .banner img {
     width: 100vw;
@@ -79,9 +84,66 @@
 }
 
 .line {
-    /* width: 100%; */
-    border-bottom: 1px solid #A5A1A1;
+    border-bottom: 1px solid #A5A1A1; 
+    margin-bottom: 4%;
 }
+
+.cards{
+    /* border: solid 1px red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.catalog {
+    width: 91%;
+    /* border: solid 1px green; */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3%;  
+}
+
+.productBox img {
+    height: 42vh;
+}
+
+.productBox p{
+    /* border: solid 1px blue; */
+    font-family:'Lato';
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 4%; 
+}
+
+.productBox span {
+    font-family: 'Lato';
+    font-weight: 700;
+    color: #5CA720;
+    text-decoration: underline #5CA720;
+}
+
+button {
+    margin-top: 5%;
+    width: 39%;
+    height: 5vh;
+    border: none;
+    border-radius: 10px;
+    background-color: #5CA720;
+    color: white;
+    cursor: pointer;
+    font-family: 'Lato';
+    font-size: 0.9rem;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+button:hover {
+    background-color: #512200BD ;
+}
+
+
+
+
 
 
 
