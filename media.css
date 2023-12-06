@@ -1,0 +1,141 @@
+@media (min-width: 591px) and (max-width: 884px) {
+             /* HEADER */
+    .home div {
+        width: 87%;
+    }
+            /* MAIN */
+    .offers h2 {
+        width: 25%;
+        font-size: 1.15rem;
+    }
+    .offers p {
+        width: 25%;
+    }
+    button {
+        height: 4vh;
+    }
+          /* FOOTER */
+    .boxForm p {
+        position: relative;
+        top: 2%;
+        left: 17%;
+    }
+    .payment img {
+        position: relative;
+        left: 22%;
+    }
+    .input {
+        height: 5vh;
+    }
+    .sub {
+        font-size: 0.8rem;
+        height: 5vh;
+    }
+    
+}
+
+@media (min-width: 500px) and (max-width: 696px) {
+             /* HEADER */
+        .home div {
+            width: 82%;
+        }
+            /* MAIN */
+        .offers h2 {
+            width: 37%;
+            font-size: 1.10rem;
+        }
+        .offers p {
+            width: 36%;
+        }
+        .productBox{
+            width: 50%;
+        }
+          /* FOOTER */
+        .boxList {
+            width: 32%;
+            position: relative;
+            left: 4%;
+        }
+        .boxList a {
+            font-size: 0.8rem;
+        }
+        .boxForm {
+            width: 55%;
+        }
+        .boxForm p {
+            position: relative;
+            top: 10%;
+        }
+        .input {
+            position: relative;
+            left: 8%;
+            width: 67%;
+        }
+        .sub {
+            width: 23%;
+            height: 6vh;
+            position: relative;
+            left: 7%;
+        }
+
+        .socialMedia nav {
+            width: 82%;
+        }
+        .payment {
+            width: 25%;
+        }
+    }
+
+@media (min-width: 428px) and (max-width: 499px) {
+             /* HEADER */
+             .home div {
+                width: 82%;
+            }
+                /* MAIN */
+            .offers h2 {
+                width: 37%;
+                font-size: 1.10rem;
+            }
+            .offers p {
+                width: 36%;
+            }
+            .productBox{
+                width: 50%;
+            }
+              /* FOOTER */
+            .boxList {
+                width: 32%;
+                position: relative;
+                left: 4%;
+            }
+            .boxList a {
+                font-size: 0.8rem;
+            }
+            .boxForm {
+                width: 55%;
+            }
+            .boxForm p {
+                position: relative;
+                top: 4%;
+                left: 8%;
+            }
+            input {
+                position: relative;
+                left: 8%;
+                width: 67%;
+                font-size: 0.7rem;
+            }
+            .sub {
+                width: 23%;
+                height: 6vh;
+                position: relative;
+                left: 2%;
+                font-size: 0.7rem;
+            }
+            .socialMedia nav {
+                width: 82%;
+            }
+            .payment {
+                width: 25%;
+            }
+    }

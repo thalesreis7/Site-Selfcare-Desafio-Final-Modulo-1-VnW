@@ -1,15 +1,13 @@
-
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     @import url: ('https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Lato:wght@700&display=swap');
-
 }
 
 
    /* HEADER */
+
 
 .home{
     width: 100%;
@@ -59,6 +57,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid #A5A1A1;
+    margin-bottom: 4%;
 }
 
 .offers h2 {
@@ -85,29 +85,19 @@
     color: #161616;
 }
 
-.line {
-    border-bottom: 1px solid #A5A1A1; 
-    margin-bottom: 4%;
-}
-
 .cards{
     display: flex;
     justify-content: center;
-    /* border: solid 1px red;
-    display: flex;
-    justify-content: center;
-     */
+    /* border: solid 1px red; */
 }
 
 .catalog {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    /* width: 91%;
-    border: solid 1px green;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 3%;   */
+    /* border: solid 1px green; */
+    border-bottom: 1px solid #A5A1A1;
+     
 }
 
 .productBox{
@@ -204,11 +194,6 @@ button:hover {
     background-color: #512200BD ;
 }
 
-
-.lineMain {
-    border-bottom: 1px solid #A5A1A1; 
-}
-
    /* FOOTER */
 
 footer{
@@ -219,16 +204,17 @@ footer{
 
 footer section {
     height: 30vh;
-    border: solid 1px purple;
+    /* border: solid 1px purple; */
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border-bottom: solid 1px #A5A1A1;
 }
 
 .boxList {
     height: 19vh;
     width: 41%;
-    border: solid 1px blue;
+    /* border: solid 1px blue; */
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -245,15 +231,17 @@ footer section {
 .boxForm {
     height: 19vh;
     width: 39%;
-    border: solid 1px blue;
+    /* border: solid 1px blue; */
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 .boxForm p {
+    width: 18%;
     position: relative;
-    top: 25%;
+    top: 17%;
+    left: 16%;
     font-family: 'Lato';
     font-size: 1rem;
     font-weight: 600;
@@ -265,31 +253,75 @@ input {
     border-radius: 5px 0px 0px 5px;
     border: 0.5px solid #D9D9D9;
     background: #FFF;
+    position: relative;
+    left: 16%;
+    bottom: 13%;
+    padding-left: 2%;
    
 }
 
-
-/* footer button {
-    margin-top: 7%;
-    width: 29%;
-    height: 5vh;
-    
-    font-family: 'Lato';
-    font-size: 0.9rem;
-    font-weight: 900;
-    text-transform: capitalize;
+.sub {
+    width: 21%;
+    height: 6vh;
+    border: none;
+    border-radius: 1px ;
+    box-shadow: none;
     position: relative;
-    left: 16%;
-
-} */
+    bottom: 12%;
+    left: 15%;
+    
+}
 
 .socialMedia {
-    border: solid 2px green;
-    height: 10vh;
+    /* border: solid 2px green; */
+    height: 13vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.socialMedia nav{
+    width: 90%;
+    /* border: solid 1px purple; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  
+}
+
+.redes {
+    width: 17%;
+    /* border: solid 1px red  ; */
+    display: flex;
+
+    
+}
+
+.redes img {
+    width: 66%;
+   
+}
+
+.payment {
+    width: 17%;
+    height: 6vh;
+    /* border: solid 1px red  ; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 
+.payment a {
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-between;
+}
 
-
-
-
+.payment img {
+    width: 70%;
+    position: relative;
+    left: 32%;
+    
+    
+}
