@@ -190,14 +190,6 @@
         .payment img {
             width: 81%;
         }
-        /* .socialMedia nav {
-            width: 52%;
-            position: relative;
-            left: 2%;
-        }
-        .payment {
-            width: 25%;
-        } */
     }
 
     @media (min-width: 393px) and (max-width: 427px) {
@@ -230,7 +222,6 @@
         footer section {
             display: flex;
             flex-direction: column;
-            /* justify-content: center; */
         }
         .boxList {
             width: 53%;
@@ -322,7 +313,6 @@
         footer section {
             display: flex;
             flex-direction: column;
-            /* justify-content: center; */
         }
         .boxList {
             width: 53%;
@@ -414,7 +404,6 @@
             footer section {
                 display: flex;
                 flex-direction: column;
-                /* justify-content: center; */
             }
             .boxList {
                 width: 53%;
@@ -475,7 +464,6 @@
                 width: 81%;
             }
     }
-    
                 /* 162 x 190 */
     @media (max-width: 162px) {
             /* HEADER */
@@ -535,9 +523,6 @@
                 left: 2%;
                 justify-content: center;
             }
-            /* .boxList li {
-                width: 1%;
-            } */
             .boxList a{
                 font-size: 0.5rem;
                 letter-spacing: 0.02rem;
@@ -553,7 +538,6 @@
                 right: 68%;
                 bottom: 19%;
             }
-
             .boxForm h2 {
                 position: relative;
                 left: 40%;

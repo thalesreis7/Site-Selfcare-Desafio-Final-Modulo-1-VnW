@@ -8,15 +8,12 @@
 
    /* HEADER */
 
-
 .home{
     width: 100%;
     /* border: solid 1px red; */
     height: 10vh;
     display: flex;
     justify-content: center;
-    
-
 }
 
 .home div {
@@ -26,7 +23,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
 
 .home figure {
@@ -36,8 +32,6 @@
 
      /* MAIN */
 
-
-
 .banner figure {
     width: 100%;
     /* border: 1px solid blue; */
@@ -45,7 +39,6 @@
     justify-content: center;
     align-items: center;
 }
-
 
 .banner img {
     width: 100%;
@@ -96,8 +89,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     /* border: solid 1px green; */
-    border-bottom: 1px solid #A5A1A1;
-     
+    border-bottom: 1px solid #A5A1A1;   
 }
 
 .productBox{
@@ -111,8 +103,7 @@
     justify-content: center;
     align-items: flex-end;
     position: relative;
-    overflow: hidden;
-    
+    overflow: hidden;  
 }
 
 .productBox img {
@@ -138,7 +129,6 @@
     font-size: 1rem;
     font-weight: 500;
     color: white;
-   
 }
 
 .productBox figure:hover figcaption {
@@ -249,6 +239,7 @@ footer section {
     font-weight: 600;
     color: #161616;
 }
+
 input {
     width: 63%;
     height: 6vh;
@@ -259,7 +250,6 @@ input {
     left: 16%;
     bottom: 13%;
     padding-left: 2%;
-   
 }
 
 .sub {
@@ -271,7 +261,6 @@ input {
     position: relative;
     bottom: 12%;
     left: 15%;
-    
 }
 
 .socialMedia {
@@ -287,8 +276,6 @@ input {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-  
 }
 
 .redes {
@@ -296,13 +283,10 @@ input {
     /* border: solid 1px red  ; */
     display: flex;
     justify-content: center;
-
-    
 }
 
 .redes img {
-    width: 66%;
-   
+    width: 66%; 
 }
 
 .payment {
@@ -322,5 +306,4 @@ input {
 
 .payment img {
     width: 71%;
-    
 }
