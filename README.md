@@ -1,4 +1,4 @@
-# Desafio Final Sie Selfcare / Vai na Web 🚀
+# Desafio Final Selfcare / Vai na Web 🚀
 
 # 📚 O que foi utilizado:
 - HTML semântico
