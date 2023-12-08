@@ -1,41 +1,52 @@
-@media (min-width: 591px) and (max-width: 884px) {
-             /* HEADER */
-    .home div {
-        width: 87%;
+  @media (min-width: 591px) and (max-width: 884px) {
+                /* HEADER */
+        .home div {
+            width: 87%;
+        }
+                /* MAIN */
+        .offers h2 {
+            width: 25%;
+            font-size: 1.15rem;
+        }
+        .offers p {
+            width: 25%;
+        }
+        button {
+            height: 4vh;
+        }
+            /* FOOTER */
+        .boxForm h2 {
+            position: relative;
+            top: 2%;
+            left: 17%;
+        }
+        .input {
+            height: 5vh;
+        }
+        .sub {
+            font-size: 0.8rem;
+            height: 5vh;
+        }
+        .socialMedia {
+            width: 100%;
+            display: flex;
+           
+        }
+        .socialMedia nav {
+            width: 55%;
+            display: flex;
+        }
+        .payment {
+            width: 22%;
+            display: flex;
+            justify-content: center;
+            position: relative;
+            left: 3%;
+        }
     }
-            /* MAIN */
-    .offers h2 {
-        width: 25%;
-        font-size: 1.15rem;
-    }
-    .offers p {
-        width: 25%;
-    }
-    button {
-        height: 4vh;
-    }
-          /* FOOTER */
-    .boxForm p {
-        position: relative;
-        top: 2%;
-        left: 17%;
-    }
-    .payment img {
-        position: relative;
-        left: 22%;
-    }
-    .input {
-        height: 5vh;
-    }
-    .sub {
-        font-size: 0.8rem;
-        height: 5vh;
-    }
-    
-}
 
-@media (min-width: 500px) and (max-width: 696px) {
-             /* HEADER */
+    @media (min-width: 500px) and (max-width: 696px) {
+                /* HEADER */
         .home div {
             width: 82%;
         }
@@ -50,11 +61,90 @@
         .productBox{
             width: 50%;
         }
-          /* FOOTER */
+            /* FOOTER */
         .boxList {
-            width: 32%;
+            width: 33%;
             position: relative;
             left: 4%;
+        }
+        .boxList a {
+            font-size: 0.7rem;
+        }
+        .boxForm {
+            width: 55%;
+        }
+        .boxForm h2 {
+            position: relative;
+            top: 10%;
+            left: 4%;
+        }
+        input {
+            position: relative;
+            left: 3%;
+            width: 67%;
+        }
+        .sub {
+            width: 25%;
+            height: 6vh;
+            position: relative;
+            left: 1%;
+        }
+        .socialMedia nav {
+            width: 48%;
+            display: flex;
+            justify-content: flex-start;
+        }
+        .socialMedia img {
+            width: 70%;
+        }
+        .payment {
+            width: 21%;
+        }
+        .payment img {
+            width: 81%;
+        }
+    }
+        
+    @media (min-width: 428px) and (max-width: 499px) {
+            /* HEADER */
+        .home div {
+            width: 82%;
+        }
+            /* MAIN */
+        .offers {
+            display: flex;
+            justify-content: space-around;
+            position: relative;
+            left: 2%;
+        }
+        .offers h2 {
+            display: flex;
+            justify-content: flex-start;
+            width: 37%;
+            font-size: 1.10rem;
+        }
+        .offers p {
+            width: 36%;
+            position: relative;
+            left: 4%;
+        }
+        .productBox{
+            width: 50%;
+        }
+        button {
+            height: 4vh;
+            width: 34%;
+            margin-top: 8%;
+            font-size: 0.9rem;
+        }
+            /* FOOTER */
+        footer section {
+            display: flex;
+        }
+        .boxList {
+            width: 46%;
+            position: relative;
+            left: 9%;
         }
         .boxList a {
             font-size: 0.8rem;
@@ -62,80 +152,452 @@
         .boxForm {
             width: 55%;
         }
-        .boxForm p {
+        .boxForm form {
+            width: 93%;
             position: relative;
-            top: 10%;
+            bottom: 18%;
         }
-        .input {
+        .boxForm h2 {
+            position: relative;
+            top: 4%;
+            left: 8%;
+        }
+        input {
             position: relative;
             left: 8%;
             width: 67%;
+            font-size: 0.7rem;
+            height: 5vh;
         }
         .sub {
-            width: 23%;
-            height: 6vh;
+            width: 25%;
+            height: 5vh;
             position: relative;
-            left: 7%;
+            left: 2%;
+            font-size: 0.7rem;
         }
-
         .socialMedia nav {
-            width: 82%;
+            width: 48%;
+            display: flex;
+            justify-content: flex-start;
+        }
+        .socialMedia img {
+            width: 70%;
+        }
+        .payment {
+            width: 21%;
+        }
+        .payment img {
+            width: 81%;
+        }
+        /* .socialMedia nav {
+            width: 52%;
+            position: relative;
+            left: 2%;
         }
         .payment {
             width: 25%;
+        } */
+    }
+
+    @media (min-width: 393px) and (max-width: 427px) {
+            /* HEADER */
+        .home div {
+            width: 88%;
+        }
+            /* MAIN */
+        .banner figure {
+            width: 101%;
+        }
+        .banner img {
+            width: 101%;
+        }
+        .offers {
+            width: 101%;
+        }
+        .offers h2 {
+            width: 37%;
+            font-size: 1.10rem;
+        }
+        .offers p {
+            width: 36%;
+        }
+        .productBox {
+            width: 89%;
+            margin-left: 7%;
+        }
+        /* FOOTER */
+        footer section {
+            display: flex;
+            flex-direction: column;
+            /* justify-content: center; */
+        }
+        .boxList {
+            width: 53%;
+            position: relative;
+            top: 5%;
+        }
+        .boxList a{
+            font-size: 0.7rem;
+            letter-spacing: 0.02rem;
+        }
+        .boxForm {
+            display: flex;
+            justify-content: center;
+            
+        }
+        .boxForm form{
+            width: 87%;
+            position: relative;
+            right: 21%;
+        }
+        .boxForm h2 {
+            position: relative;
+            left: 2%;
+            font-size: 0.9rem;
+            letter-spacing: 0.04rem;
+        }
+        input {
+            width: 99%;
+            height: 4vh;
+            text-align: center;
+            position: relative;
+            left: 1%;
+            top: 22%;
+            font-size: 0.7rem;
+        }
+        .sub {
+            width: 48%;
+            height: 4vh;
+            position: relative;
+            bottom: 23%;
+            left: 100%;
+        }
+        .socialMedia nav {
+            width: 56%;
+            position: relative;
+            top: 28%;
+        }
+        .socialMedia img {
+            width: 70%;
+        }
+        .payment {
+            width: 21%;
+            position: relative;
+            left: 19%;
+            bottom: 26%
+        }
+        .payment img {
+            width: 81%;
+        }
+    }   
+
+    @media (min-width: 360px) and (max-width:411px){
+            /* HEADER */
+        .home div {
+            width: 88%;
+        }
+            /* MAIN */
+        .banner figure {
+            width: 101%;
+        }
+        .banner img {
+            width: 101%;
+        }
+        .offers {
+            width: 101%;
+        }
+        .offers h2 {
+            width: 37%;
+            font-size: 1.10rem;
+        }
+        .offers p {
+            width: 36%;
+        }
+        .productBox {
+            width: 89%;
+            margin-left: 7%;
+        }
+        /* FOOTER */
+        footer section {
+            display: flex;
+            flex-direction: column;
+            /* justify-content: center; */
+        }
+        .boxList {
+            width: 53%;
+            position: relative;
+            top: 6%;
+        }
+        .boxList a{
+            font-size: 0.7rem;
+            letter-spacing: 0.02rem;
+        }
+        .boxForm {
+            display: flex;
+            justify-content: center;
+            
+        }
+        .boxForm form{
+            width: 87%;
+            position: relative;
+            right: 21%;
+        }
+        .boxForm h2 {
+            position: relative;
+            left: 2%;
+            font-size: 0.9rem;
+            letter-spacing: 0.04rem;
+        }
+        input {
+            width: 99%;
+            height: 4vh;
+            text-align: center;
+            position: relative;
+            left: 1%;
+            top: 22%;
+            font-size: 0.7rem;
+        }
+        .sub {
+            width: 58%;
+            height: 4vh;
+            position: relative;
+            bottom: 23%;
+            left: 100%;
+        }
+        .socialMedia nav {
+            width: 56%;
+            position: relative;
+            top: 28%;
+        }
+        .socialMedia img {
+            width: 70%;
+        }
+        .payment {
+            width: 21%;
+            position: relative;
+            left: 19%;
+            bottom: 26%
+        }
+        .payment img {
+            width: 81%;
         }
     }
 
-@media (min-width: 428px) and (max-width: 499px) {
-             /* HEADER */
-             .home div {
-                width: 82%;
+    @media (min-width: 320px) and (max-width: 359px) {
+            /* HEADER */
+            .home div {
+                width: 85%;
             }
                 /* MAIN */
+            .banner figure {
+                width: 101%;
+            }
+            .banner img {
+                width: 101%;
+            }
+            .offers {
+                width: 101%;
+            }
             .offers h2 {
-                width: 37%;
+                width: 47%;
                 font-size: 1.10rem;
             }
             .offers p {
-                width: 36%;
+                width: 46%;
             }
-            .productBox{
-                width: 50%;
+            .productBox {
+                width: 89%;
+                margin-left: 7%;
             }
-              /* FOOTER */
+            /* FOOTER */
+            footer section {
+                display: flex;
+                flex-direction: column;
+                /* justify-content: center; */
+            }
             .boxList {
-                width: 32%;
+                width: 53%;
                 position: relative;
-                left: 4%;
+                top: 6%;
             }
-            .boxList a {
-                font-size: 0.8rem;
+            .boxList a{
+                font-size: 0.7rem;
+                letter-spacing: 0.02rem;
             }
             .boxForm {
-                width: 55%;
+                display: flex;
+                justify-content: center;
+                
             }
-            .boxForm p {
+            .boxForm form{
+                width: 87%;
                 position: relative;
-                top: 4%;
-                left: 8%;
+                right: 21%;
             }
-            input {
-                position: relative;
-                left: 8%;
-                width: 67%;
-                font-size: 0.7rem;
-            }
-            .sub {
-                width: 23%;
-                height: 6vh;
+            .boxForm h2 {
                 position: relative;
                 left: 2%;
-                font-size: 0.7rem;
+                font-size: 0.9rem;
+                letter-spacing: 0.04rem;
+            }
+            input {
+                width: 99%;
+                height: 4vh;
+                text-align: center;
+                position: relative;
+                left: 1%;
+                top: 22%;
+                font-size: 0.5rem;
+            }
+            .sub {
+                width: 63%;
+                height: 4vh;
+                position: relative;
+                bottom: 23%;
+                left: 100%;
             }
             .socialMedia nav {
-                width: 82%;
+                width: 56%;
+                position: relative;
+                top: 28%;
+            }
+            .socialMedia img {
+                width: 83%;
             }
             .payment {
-                width: 25%;
+                width: 21%;
+                position: relative;
+                left: 19%;
+                bottom: 26%
+            }
+            .payment img {
+                width: 81%;
+            }
+    }
+    
+                /* 162 x 190 */
+    @media (max-width: 162px) {
+            /* HEADER */
+            .home div {
+                width: 91%;
+            }
+            .home img {
+                width: 83%;
+                display: flex;
+                justify-content: space-between;
+            }
+                /* MAIN */
+            .banner figure {
+                width: 101%;
+            }
+            .banner img {
+                width: 101%;
+            }
+            .offers {
+                width: 99%;
+                height: 16vh;
+            }
+            .offers h2 {
+                width: 51%;
+                font-size: 0.6rem;
+            }
+            .offers p {
+                width: 51%;
+                font-size: 0.6rem;
+            }
+            .productBox {
+                width: 86%;
+                margin: 7% 0% 7% 7%;   
+            }
+            .productBox figcaption {
+                font-size: 0.5rem;
+
+            }
+            .productBox button {
+                width: 52%;
+                height: 14vh;
+                position: relative;
+                top: 3%;
+            }
+            /* FOOTER */
+            footer section {
+                height: 100vh;
+                display: flex;
+                flex-direction: column;
+                background-color: #f3f0f0;
+            }
+            .boxList {
+                display: flex;
+                width: 80%;
+                position: relative;
+                bottom: 14%;
+                left: 2%;
+                justify-content: center;
+            }
+            /* .boxList li {
+                width: 1%;
+            } */
+            .boxList a{
+                font-size: 0.5rem;
+                letter-spacing: 0.02rem;
+            }
+            .boxForm {
+                display: flex;
+                justify-content: center;
+                
+            }
+            .boxForm form{
+                width: 116%;
+                position: relative;
+                right: 68%;
+                bottom: 19%;
+            }
+
+            .boxForm h2 {
+                position: relative;
+                left: 40%;
+                top: 18%;
+                font-size: 0.9rem;
+                letter-spacing: 0.04rem;
+            }
+            input {
+                width: 182%;
+                height: 13vh;
+                text-align: center;
+                position: relative;
+                top: 22%;
+                font-size: 0.7rem;
+                left: 9%;
+            }
+            .sub {
+                width: 179%;
+                height: 13vh;
+                position: relative;
+                top: 14%;
+                left: 12%
+            }
+            .socialMedia {
+                height: 20vh;
+                display: flex;
+                justify-content: space-around;
+            }
+            .socialMedia nav {
+                width: 80%;
+                position: relative;
+                top: 27%;
+                left: 4%;
+            }
+            .socialMedia img {
+                width: 83%;
+            }
+            .payment {
+                width: 30%;
+                position: relative;
+                left: 23%;
+                bottom: 26%
+            }
+            .payment img {
+                width: 81%;
             }
     }

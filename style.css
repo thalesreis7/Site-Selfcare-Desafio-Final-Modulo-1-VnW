@@ -212,13 +212,14 @@ footer section {
 }
 
 .boxList {
-    height: 19vh;
-    width: 41%;
+    height: 13vh;
+    width: 39%;
     /* border: solid 1px blue; */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-  
+}
+
+.boxList li {
+    list-style: none;
+    text-decoration-line: none;
 }
 
 .boxList a {
@@ -226,6 +227,7 @@ footer section {
     font-weight: 600;
     font-size: 1rem;
     color: #161616;
+    text-decoration: none;
 }
 
 .boxForm {
@@ -237,7 +239,7 @@ footer section {
     justify-content: center;
 }
 
-.boxForm p {
+.boxForm h2 {
     width: 18%;
     position: relative;
     top: 17%;
@@ -274,13 +276,13 @@ input {
 
 .socialMedia {
     /* border: solid 2px green; */
-    height: 13vh;
+    height: 10vh;
     display: flex;
     justify-content: space-around;
 }
 
 .socialMedia nav{
-    width: 90%;
+    width: 78%;
     /* border: solid 1px purple; */
     display: flex;
     justify-content: space-between;
@@ -290,9 +292,10 @@ input {
 }
 
 .redes {
-    width: 17%;
+    width: 22%;
     /* border: solid 1px red  ; */
     display: flex;
+    justify-content: center;
 
     
 }
@@ -307,7 +310,6 @@ input {
     height: 6vh;
     /* border: solid 1px red  ; */
     display: flex;
-    justify-content: space-around;
     align-items: center;
 }
 
@@ -319,9 +321,6 @@ input {
 }
 
 .payment img {
-    width: 70%;
-    position: relative;
-    left: 32%;
-    
+    width: 71%;
     
 }
