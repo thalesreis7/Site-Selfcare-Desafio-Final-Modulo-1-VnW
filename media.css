@@ -62,6 +62,12 @@
             width: 50%;
         }
             /* FOOTER */
+        footer {
+            height: 30vh;
+        }
+        footer section {
+            height: 21vh;
+        }
         .boxList {
             width: 33%;
             position: relative;
@@ -464,6 +470,101 @@
                 width: 81%;
             }
     }
+
+    @media (min-width: 299px) and (max-width: 319px) {
+            /* HEADER */
+            .home div {
+                width: 94%;
+            }
+            .home img {
+                width: 87%;
+            }
+                /* MAIN */
+            .banner figure {
+                width: 101%;
+            }
+            .banner img {
+                width: 101%;
+            }
+            .offers {
+                width: 101%;
+            }
+            .offers h2 {
+                width: 47%;
+                font-size: 1.10rem;
+            }
+            .offers p {
+                width: 46%;
+            }
+            .productBox {
+                width: 89%;
+                margin-left: 7%;
+            }
+            /* FOOTER */
+            footer section {
+                display: flex;
+                flex-direction: column;
+                height: 36vh;
+            }
+            .boxList {
+                width: 55%;
+                position: relative;
+                top: 6%;
+            }
+            .boxList a{
+                font-size: 0.7rem;
+                letter-spacing: 0.02rem;
+            }
+            .boxForm {
+                display: flex;
+                justify-content: center;
+                
+            }
+            .boxForm form{
+                width: 87%;
+                position: relative;
+                right: 21%;
+            }
+            .boxForm h2 {
+                position: relative;
+                left: 2%;
+                font-size: 0.9rem;
+                letter-spacing: 0.04rem;
+            }
+            input {
+                width: 99%;
+                height: 4vh;
+                text-align: center;
+                position: relative;
+                left: 1%;
+                top: 22%;
+                font-size: 0.5rem;
+            }
+            .sub {
+                width: 63%;
+                height: 4vh;
+                position: relative;
+                bottom: 20%;
+                left: 100%;
+            }
+            .socialMedia nav {
+                width: 56%;
+                position: relative;
+                top: 39%;
+            }
+            .socialMedia img {
+                width: 94%;
+            }
+            .payment {
+                width: 21%;
+                position: relative;
+                left: 19%;
+                bottom: 16%
+            }
+            .payment img {
+                width: 96%;
+            }
+    }
                 /* 162 x 190 */
     @media (max-width: 162px) {
             /* HEADER */
@@ -537,7 +638,7 @@
                 position: relative;
                 right: 68%;
                 bottom: 19%;
-            }
+            }   
             .boxForm h2 {
                 position: relative;
                 left: 40%;

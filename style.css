@@ -207,7 +207,7 @@ footer section {
 }
 
 .boxList {
-    height: 13vh;
+    height: 21vh;
     width: 39%;
     /* border: solid 1px blue; */
 }
@@ -215,6 +215,7 @@ footer section {
 .boxList li {
     list-style: none;
     text-decoration-line: none;
+    margin: 2%;
 }
 
 .boxList a {
